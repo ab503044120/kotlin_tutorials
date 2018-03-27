@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         var a = "1122"
         var b = 2
         findViewById<TextView>(R.id.tv)
+        object :AbsObj(){
+            override fun absclass() {
+            }
+
+        }
     }
 
     fun hello() {
