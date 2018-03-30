@@ -1,6 +1,8 @@
 package org.huihui.hellokotlin
 
 class StaticClass {
+    private var str: String = ""
+
     companion object {
         val str: String = "1111"
 
